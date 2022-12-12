@@ -65,7 +65,7 @@
         -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 92%, 80% 100%, 20% 100%, 0 91%, 0 0);
         clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 92%, 80% 100%, 20% 100%, 0 91%, 0 0);
     }
-    /* &:nth-child(9n + 1){
+    &:nth-child(9n + 1){
         background-image: url(..//img/productos/auriculares-sony.jpg);
         background-repeat: no-repeat;
         background-position: center;
@@ -173,7 +173,7 @@
             transform: scale(1.01) rotate(2deg);
             transform-origin: center;
         }
-    } */
+    } 
     &:hover &__image-container,
     &:focus &__image-container {
         transform: scale(1.4) rotate(5deg);
