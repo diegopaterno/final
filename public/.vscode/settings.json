@@ -1,4 +1,4 @@
-{
+ {
     "liveSassCompile.settings.formats": [
         {
             "format": "expanded",
@@ -12,4 +12,4 @@
         }
     ],
     "liveServer.settings.port": 5503
-}
+} 
