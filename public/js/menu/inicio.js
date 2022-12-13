@@ -21,6 +21,7 @@ function agregarCarrito(e, id, ref) {
     //console.log(ref)
 
     const producto = productoController.productos.find(producto => producto.id == id)
+    //const producto = productoController.productos.find(producto => producto._id == id)
     carritoController.agregarAlCarrito(producto)
 }
 
