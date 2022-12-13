@@ -1,3 +1,5 @@
+//const { preferences } = require("mercadopago")
+
 class CarritoController extends CarritoModel {
 
     constructor() {
@@ -59,13 +61,21 @@ class CarritoController extends CarritoModel {
             const elemSectionCarrito = document.getElementsByClassName('section-carrito')[0];
             
             elemSectionCarrito.innerHTML = '<h2 class="section-carrito__placeholder-title">Enviando carrito...</h2>';
-            await carritoService.guardarCarritoServicio(this.carrito);
+            const preference = await carritoService.guardarCarritoServicio(this.carrito);
             this.carrito = [];
             localStorage.setItem('carrito', JSON.stringify(this.carrito));
             elemSectionCarrito.innerHTML = `
             <h2 class="section-carrito__placeholder-title">Tu compra fue realizada con éxito</h2>
             <div class="section-carrito__submit-confirmation-img-container"></div>
             `;
+
+            setTimeout(async() => {
+                elemSectionCarrito.classList.remove('section-carrito--visible')
+                mostrarCarrito = false
+                console.log(preference)
+                await renderPago(preference)
+
+            }, 0)
             this.closeBtnCarrito(elemSectionCarrito);
             
             this.resetearCuentaProductosCarrito(this.carrito)     
@@ -89,7 +99,7 @@ class CarritoController extends CarritoModel {
         
     
     }
-    contarProductosCarrito() {
+     contarProductosCarrito() {
         const carritoContainer = document.querySelector('.search-bar__carrito-container');
         const carritoSum = document.createElement('div');
         carritoSum.classList.add('search-bar__carrito-container__sum');
@@ -106,13 +116,13 @@ class CarritoController extends CarritoModel {
         carritoContainer.appendChild(carritoSum);
         
   
-    }
-    resetearCuentaProductosCarrito(carrito) {
+    } 
+     resetearCuentaProductosCarrito(carrito) {
         const carritoContainer = document.querySelector('.search-bar__carrito-container');
         const carritoSum = carritoContainer.querySelector('.search-bar__carrito-container__sum');        
         carritoSum.innerHTML = carrito.length;
         carritoContainer.appendChild(carritoSum);
-    }
+    } 
 
 }
 
