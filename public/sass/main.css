@@ -809,8 +809,19 @@ body p {
   /* COMPRAR CARRITO            */
   /*****************************/
 }
+@media (max-width: 468px) {
+  .section-carrito {
+    position: relative;
+    background-color: black;
+  }
+  .section-carrito {
+    background-color: black;
+    flex-direction: column-reverse;
+  }
+}
 .section-carrito--visible {
   display: block;
+  background-color: black;
 }
 .section-carrito::after {
   content: "";
