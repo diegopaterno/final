@@ -26,6 +26,7 @@
         background-color: black; */
   }
   .section-carrito {
+    margin: 0px auto;
     width: 80%;
   }
 }
