@@ -9,12 +9,15 @@
     bottom: 150px;
     box-shadow: .3em .3em 10em .3em rgba(0,0,0,1);
 
+    //section-carrito section-carrito--visible
     @media (max-width: 468px) {
         /* position: absolute;
         background-color: black; */
          & {
-           margin-left: 30%;
-           margin-right: 5%;
+           position: absolute;
+           margin-left: 5px;
+           margin-right: 5px;
+
             
           //flex-direction: column-reverse; 
           
