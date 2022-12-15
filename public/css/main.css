@@ -815,7 +815,8 @@ body p {
     background-color: black; */
   }
   .section-carrito {
-    width: 100%;
+    margin-left: 30%;
+    margin-right: 5%;
   }
 }
 .section-carrito--visible {
