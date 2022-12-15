@@ -789,6 +789,12 @@ body p {
   width: 100%;
 }
 
+@media (max-width: 468px) {
+  .section-carrito section-carrito--visible {
+    border-radius: 5px;
+  }
+}
+
 .section-carrito {
   display: none;
   position: fixed;
@@ -816,8 +822,9 @@ body p {
   }
   .section-carrito {
     position: fixed;
-    left: 15%;
-    right: 15%;
+    left: 5%;
+    right: 5%;
+    border-radius: 5px;
   }
 }
 .section-carrito--visible {
