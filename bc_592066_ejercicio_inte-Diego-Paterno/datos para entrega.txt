@@ -1,18 +1,10 @@
-bc_592066_ejercicio_int-Diego-Paterno
-
-# Proyecto integrador - Diego Paterno
-
-# github:  https://github.com/diegopaterno/bc_592066_ejercicio_int-Diego-Paterno
-
-# netlify:  https://vocal-lily-654e43.netlify.app/#inicio
+bc_592066_ejercicio_int-Diego-Paterno 3ra Etapa
 
 # 3ra etapa
 
-# github:
+# github: https://github.com/diegopaterno/final
 
-# netlify:
-
-# railway:
+# railway: https://final-production-31b4.up.railway.app/
 
 # PORT=8082
 # URI_MONGODB_LOCAL=mongodb+srv://28839443:28839443@cluster0.tueiuer.mongodb.net/bcecommerce
