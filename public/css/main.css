@@ -672,23 +672,23 @@ body p {
   box-shadow: 0 7px 8px rgba(0, 0, 0, 0.05), 0 3 3px rgba(0, 0, 0, 0.01);
 }
 .card:nth-child(5n+1) {
-  background-image: linear-gradient(to top, #aaafad 0%, #60efff 30%);
+  background-image: linear-gradient(to top, mediumseagreen 0%, plum 30%);
 }
 .card:nth-child(5n+2) {
-  background-image: linear-gradient(to top, #696eff 0%, #f8acff 30%);
+  background-image: linear-gradient(to top, mediumseagreen 0%, plum 30%);
 }
 .card:nth-child(5n+3) {
-  background-image: linear-gradient(to top, #ff1b6b 0%, #45caff 30%);
+  background-image: linear-gradient(to top, mediumseagreen 0%, plum 30%);
 }
 .card:nth-child(5n+4) {
-  background-image: linear-gradient(to top, #ff930f 0%, #fff95b 30%);
+  background-image: linear-gradient(to top, mediumseagreen 0%, plum 30%);
 }
 .card:nth-child(5n+5) {
-  background-image: linear-gradient(to top, #ff0f7b 0%, #f89b29 30%);
+  background-image: linear-gradient(to top, mediumseagreen 0%, plum 30%);
 }
 .card__image-container {
   height: 200px;
-  background-color: blue;
+  background-color: purple;
   overflow: hidden;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 200px, 0 180px);
   clip-path: polygon(0 0, 100% 0, 100% 200px, 0 180px);
@@ -816,10 +816,6 @@ body p {
   /*****************************/
 }
 @media (max-width: 468px) {
-  .section-carrito {
-    /* position: absolute;
-    background-color: black; */
-  }
   .section-carrito {
     position: fixed;
     left: 5%;
