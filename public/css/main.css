@@ -552,6 +552,7 @@ p {
   padding: 5px;
   background-color: purple;
   color: azure;
+  border-radius: 5px;
 }
 .container-alta button {
   display: block;
@@ -561,6 +562,7 @@ p {
   color: white;
   cursor: pointer;
   margin-bottom: 10px;
+  border-radius: 5px;
 }
 .container-alta button:hover {
   background-color: blueviolet;
@@ -583,6 +585,13 @@ p {
 }
 .container-alta #listado-productos {
   width: 100%;
+}
+.container-alta #drop-area {
+  border: 2px dashed #ccc;
+  border-radius: 20px;
+  width: 300px;
+  margin: 25px 0;
+  padding: 20px;
 }
 
 @media (max-width: 468px) {

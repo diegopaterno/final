@@ -20,6 +20,7 @@
   padding: 5px;
   background-color: purple;
   color: azure;
+  border-radius: 5px;
 }
 
 .container-alta button {
@@ -30,6 +31,7 @@
   color: white;
   cursor: pointer;
   margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 .container-alta button:hover {
@@ -58,4 +60,12 @@
 
 .container-alta #listado-productos {
   width: 100%;
+}
+
+.container-alta #drop-area {
+  border: 2px dashed #ccc;
+  border-radius: 20px;
+  width: 300px;
+  margin: 25px 0;
+  padding: 20px;
 }

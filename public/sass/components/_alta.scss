@@ -1,27 +1,28 @@
 
 .container-alta {
     padding: 10px;
-
+    
     h1{
         width: 50px;
         position: static;
         bottom: 10px;
         
     }
-
+    
     h1, h2 {
         
         background-color: purple;
         color: azure;
     }
-
-     input {
+    
+    input {
         width: 300px;
         display: block;
         margin-bottom: 1px;
         padding: 5px;
         background-color: purple;
         color: azure;
+        border-radius: 5px;
     }
     
     button {
@@ -32,7 +33,8 @@
         color: white;
         cursor: pointer;
         margin-bottom: 10px;
-
+        border-radius: 5px;
+        
         &:hover {
             background-color: blueviolet;
         }
@@ -62,5 +64,12 @@
 
     #listado-productos {
         width: 100%;
+    }
+    #drop-area {
+        border: 2px dashed #ccc;
+        border-radius: 20px;
+        width: 300px;
+        margin: 25px 0;
+        padding: 20px;
     }
 }
