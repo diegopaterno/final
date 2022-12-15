@@ -26,9 +26,9 @@
         background-color: black; */
   }
   .section-carrito {
-    position: absolute;
-    margin-left: 5px;
-    margin-right: 5px;
+    position: fixed;
+    left: 15%;
+    right: 15%;
   }
 }
 

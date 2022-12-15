@@ -14,9 +14,9 @@
         /* position: absolute;
         background-color: black; */
          & {
-           position: absolute;
-           margin-left: 5px;
-           margin-right: 5px;
+           position: fixed;
+           left: 15%;
+           right: 15%;
 
             
           //flex-direction: column-reverse; 
