@@ -32,5 +32,5 @@ async function initInicio() {
 
     await renderPlantillaListado(productos)
 
-    document.querySelector('.section-cards__header p').innerHTML = `Se encontraron ${productos.length} productos`
+    document.querySelector('.section-cards__header p').innerHTML = `Actualmente contamos con ${productos.length} productos`
 }
